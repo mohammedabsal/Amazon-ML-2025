@@ -80,7 +80,7 @@ flowchart LR
 		A[CSV Data: train.csv / test.csv] --> B[Preprocess & Column Normalization]
 		B --> C[Quantity & Numeric Feature Extraction]
 		B --> D[Brand Encoding]
-		B --> E[TF-IDF (char + word) → SVD]
+		B --> E[TF-IDF (char + word) -> SVD]
 		C --> F[Feature Concatenation]
 		D --> F
 		E --> F
