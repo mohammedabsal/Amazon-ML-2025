@@ -67,6 +67,10 @@ The current published `predict.py` **does not load or use** the contents of `art
 
 ### 3. Evaluation Metric
 Symmetric Mean Absolute Percentage Error (SMAPE) implemented explicitly (robust to scale, handles zeros with epsilon).
+<p align="center">
+	<img src="assets/smape.png" alt="SMAPE Formula" width="420" />
+</p>
+
 
 ### 4. Final Score
 Internal validation (15% split) produced **SMAPE ≈ 50.3%**. This is reported as our baseline reference score.
