@@ -79,7 +79,7 @@ Internal validation (15% split) produced **SMAPE ≈ 50.3%**. This is reported a
 
 ## 🧭 Pipeline Flow
 
-```mermaid
+```
 flowchart LR
 		A[CSV Data: train.csv / test.csv] --> B[Preprocess & Column Normalization]
 		B --> C[Quantity & Numeric Feature Extraction]
